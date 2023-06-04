@@ -1,0 +1,51 @@
+export const pricingPlans = [
+  {
+    title: "Basic",
+    price: 0,
+    currency: "USD",
+    frequency: "/month",
+    description: "Lorem ipsum, dite",
+    features: [
+      "No Assisted Recommendations",
+      "Initial Counselling",
+      "Essay and SOP Grading Tool",
+      "Visa/MBA Interview Tool",
+    ],
+    cta: "Resgister",
+    forInstitutions: false,
+  },
+  {
+    title: "Essential",
+    price: 2000,
+    currency: "USD",
+    frequency: "/month",
+    description: "Lorem ipsum, dite",
+    features: [
+      "6 Application allowed ",
+      "No Assisted Recommendations",
+      "Initial Counselling",
+      "Essay and SOP Grading Tool",
+      "Visa/MBA Interview Tool",
+    ],
+    cta: "Resgister",
+    forInstitutions: false,
+  },
+];
+
+// {
+//   title: "Premium",
+//   price: 5000,
+//   currency: "USD",
+//   frequency: "/yearly",
+//   description: "Lorem ipsum, dite",
+//   features: [
+//     "10 Assisted Recommandation",
+//     "6 Application allowed",
+//     "No Assisted Recommendations",
+//     "Initial Counselling",
+//     "Essay and SOP Grading Tool",
+//     "Visa/MBA Interview Tool",
+//   ],
+//   cta: "Resgister",
+//   forInstitutions: false,
+// },
